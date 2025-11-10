@@ -19,36 +19,27 @@ The goal is to explore the data, clean it, visualize key relationships, and unco
 ### Dataset Information
 - Dataset: Titanic – Machine Learning from Disaster (Kaggle)
 - Main file used: train.csv
-| Column      | Description                              |
-| ----------- | ---------------------------------------- |
-| PassengerId | Unique ID for each passenger             |
-| Survived    | 0 = No, 1 = Yes                          |
-| Pclass      | Ticket class (1 = 1st, 2 = 2nd, 3 = 3rd) |
-| Name        | Passenger’s name                         |
-| Sex         | Gender                                   |
-| Age         | Age in years                             |
-| SibSp       | # of siblings/spouses aboard             |
-| Parch       | # of parents/children aboard             |
-| Ticket      | Ticket number                            |
-| Fare        | Passenger fare                           |
-| Cabin       | Cabin number                             |
-| Embarked    | Port of embarkation (C, Q, S)            |
 
-Main file used: train.csv
+### EDA Process
+- Data Loading – Import CSV and check structure
+- Data Cleaning – Handle null values, drop redundant columns
+- Descriptive Statistics – Overview of numerical and categorical columns
+- Univariate Analysis – Study single-variable distributions
+- Bivariate Analysis – Explore relationships between survival and other factors
+- Correlation Study – Observe numeric relationships
+- Insights Summary – Document- findings and trends
 
-Column	Description
-PassengerId	Unique ID for each passenger
-Survived	0 = No, 1 = Yes
-Pclass	Ticket class (1 = 1st, 2 = 2nd, 3 = 3rd)
-Name	Passenger’s name
-Sex	Gender
-Age	Age in years
-SibSp	# of siblings/spouses aboard
-Parch	# of parents/children aboard
-Ticket	Ticket number
-Fare	Passenger fare
-Cabin	Cabin number
-Embarked	Port of embarkation (C, Q, S)
+### Key Insights
+- Around 38% of total passengers survived.
+- Females had a significantly higher survival rate.
+- 1st class passengers were more likely to survive.
+- Younger passengers (especially below 10) showed better survival odds.
+- Most passengers embarked from Southampton, but Cherbourg passengers had slightly better survival chances.
 
-###
-
+### Repository Structure
+Titanic-EDA/
+│
+├── train.csv                 # Dataset
+├── titanic_cleaned.csv       # Cleaned dataset (after preprocessing)
+├── titanic_eda.ipynb         # Main EDA notebook
+└── README.md                 # Project documentation
