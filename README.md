@@ -37,6 +37,7 @@ The goal is to explore the data, clean it, visualize key relationships, and unco
 - Most passengers embarked from Southampton, but Cherbourg passengers had slightly better survival chances.
 
 ### Repository Structure
+```
 Titanic-EDA/
 │
 ├── train.csv                 # Dataset
