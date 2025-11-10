@@ -1,5 +1,4 @@
-# TitanicCrash_Eda
-## Titanic Dataset – Exploratory Data Analysis
+# Titanic Dataset – Exploratory Data Analysis
 
 ### Overview
 This project focuses on performing Exploratory Data Analysis (EDA) on the classic Titanic dataset from Kaggle.
