@@ -40,7 +40,7 @@ The goal is to explore the data, clean it, visualize key relationships, and unco
 ```
 Titanic-EDA/
 │
-├── train.csv                 # Dataset
-├── titanic_cleaned.csv       # Cleaned dataset (after preprocessing)
-├── titanic_eda.ipynb         # Main EDA notebook
-└── README.md                 # Project documentation
+├── train.csv                 #Dataset from Kaggle
+├── titanic_cleaned.csv       #Cleaned dataset (after preprocessing)
+├── titanic_eda.ipynb         #Main EDA notebook
+└── README.md                 
